@@ -59,7 +59,6 @@ body {
     justify-content: space-between;
     background-color: #E554730D;
     align-items: center;
-
 }
 
 .sale-heading {
@@ -72,7 +71,7 @@ body {
 .sale-info {
     text-align: center;
     padding: 35px 18px;
-    margin:40px 80px;
+    margin: 40px 80px;
 }
 
 .sale-description {
@@ -85,4 +84,31 @@ body {
 .sale-section .sale-pic {
     max-width: 500px;
     padding: 10px 20px;
+}
+
+/*instagram section*/
+.insta-info {
+    text-align: center;
+    background-color:#FFF;;
+}
+
+.insta-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.insta-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.instagram-section .insta-pic{
+    display: flex;
+    margin: 30px 50px;
+}
+.insta-pic img{
+    padding: 40px 20px;
+    max-width: 270px;
 }
