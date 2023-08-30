@@ -73,15 +73,27 @@ body {
 }
 
 .featured-flowers-image {
-    display: inline;
+    display: inline-block;
+    margin-top: -200px;
+    align-items: center;
 
 }
 
 .featured-flowers-image img {
-    padding: 20px 50px;
-    max-width: 300px;
+    margin:0px 24px 0px 0px;
+    width: 200px;
+    height:300px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+
+}
+#img_01{
+    background-color: #A7216226;
+}
+#img_02{
+    background-color: #0597A026;
+}
+#img_03{
+    background-color: #477D1126;
 }
 
 /*---sale section---*/
