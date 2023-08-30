@@ -29,9 +29,9 @@ body {
 .greeting-title h2 {
     margin-bottom: -20px;
 }
-.main-flower{
-   
-}
+
+.main-flower {}
+
 .header-title {
     color: #272727;
     font-size: 60px;
@@ -50,4 +50,39 @@ body {
     font-weight: 400;
     padding: 50px 50px;
     margin-top: 0;
+}
+
+/*sale section*/
+.sale-section {
+    display: flex;
+    margin: 100px 100px;
+    justify-content: space-between;
+    background-color: #E554730D;
+    align-items: center;
+
+}
+
+.sale-heading {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.sale-info {
+    text-align: center;
+    padding: 35px 18px;
+    margin:40px 80px;
+}
+
+.sale-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.sale-section .sale-pic {
+    max-width: 500px;
+    padding: 10px 20px;
 }
