@@ -1,4 +1,4 @@
-/*Shared style*/
+/*---Shared style---*/
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -16,7 +16,7 @@ body {
 
 }
 
-/*header section*/
+/*---header section---*/
 .greeting-title {
     background-color: #E554731A;
     display: flex;
@@ -52,7 +52,7 @@ body {
     margin-top: 0;
 }
 
-/*sale section*/
+/*---sale section---*/
 .sale-section {
     display: flex;
     margin: 100px 100px;
@@ -86,10 +86,11 @@ body {
     padding: 10px 20px;
 }
 
-/*instagram section*/
+/*---instagram section---*/
 .insta-info {
     text-align: center;
-    background-color:#FFF;;
+    background-color: #FFF;
+    ;
 }
 
 .insta-title {
@@ -104,11 +105,44 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
-.instagram-section .insta-pic{
+
+.instagram-section .insta-pic {
     display: flex;
     margin: 30px 50px;
 }
-.insta-pic img{
+
+.insta-pic img {
     padding: 40px 20px;
     max-width: 270px;
+}
+
+/*---latest-deal-section---*/
+.latest-deal-image {
+    border-radius: 8px;
+    background-image: url("../Flower Asset/latest_deal.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.latest-deal-title {
+    padding: 150px 50px 0px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: -5px;
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.input[type=text] {
+    max-width: 400px;
+    border-radius: 8px;
+    background: #FFF;
+    justify-content: space-between;
+
 }
