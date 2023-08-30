@@ -144,5 +144,31 @@ body {
     border-radius: 8px;
     background: #FFF;
     justify-content: space-between;
+}
 
+/*---Footer Section--*/
+.footer-col {
+    text-align: center;
+    background-color: #111010;
+    height: 350px;
+}
+
+.footer-col .footer-title {
+    color: white;
+    padding: 100px 100px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: -70px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-last-item {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
