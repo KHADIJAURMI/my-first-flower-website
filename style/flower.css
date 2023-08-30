@@ -55,7 +55,7 @@ body {
 /*---Feature flower section---*/
 .featured-flowers-info {
     text-align: center;
-    height: 500px;
+    margin-bottom: 10px;
 }
 
 .featured-flowers-info .featured-flowers-title {
@@ -72,29 +72,56 @@ body {
 
 }
 
-.featured-flowers-image {
-    display: inline-block;
-    margin-top: -200px;
-    align-items: center;
+/*feature image*/
 
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin: 0% 5% 0% 5%;
 }
 
-.featured-flowers-image img {
-    margin:0px 24px 0px 0px;
-    width: 200px;
-    height:300px;
+.caption {
+    display: block;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+
+/* .featured-flowers-image img {
+    margin: 0px 24px 0px 0px;
     border-radius: 300px 300px 0px 0px;
 
-}
-#img_01{
+} */
+
+#img_01 {
+    height: 538px;
+    width: 280px;
+    margin: 1%;
+    padding: 5% 5% 0% 5%;
+    border-radius: 300px 300px 0px 0px;
     background-color: #A7216226;
 }
-#img_02{
+
+#img_02 {
+    height: 538px;
+    width: 280px;
+    margin: 1%;
+    padding: 5% 5% 0% 5%;
+    border-radius: 300px 300px 0px 0px;
     background-color: #0597A026;
 }
-#img_03{
+
+#img_03 {
+    height: 538px;
+    width: 280px;
+    margin: 1%;
+    padding: 5% 5% 0% 5%;
+    border-radius: 300px 300px 0px 0px;
     background-color: #477D1126;
 }
+
 
 /*---sale section---*/
 .sale-section {
@@ -183,11 +210,11 @@ body {
     font-weight: 400;
 }
 
-.input[type=text] {
-    max-width: 400px;
-    border-radius: 8px;
-    background: #FFF;
-    justify-content: space-between;
+#email_text {
+    padding: 15px 3px 15px 15px;
+    width: 50%;
+    border-radius: 10px;
+    border: 0;
 }
 
 /*---Footer Section--*/
