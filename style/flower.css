@@ -30,7 +30,6 @@ body {
     margin-bottom: -20px;
 }
 
-.main-flower {}
 
 .header-title {
     color: #272727;
@@ -49,7 +48,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     padding: 50px 50px;
-    margin-top: 0;
 }
 
 /*---Feature flower section---*/
@@ -69,7 +67,6 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
-
 }
 
 /*feature image*/
@@ -88,12 +85,6 @@ div.item {
     text-decoration-line: underline;
 }
 
-
-/* .featured-flowers-image img {
-    margin: 0px 24px 0px 0px;
-    border-radius: 300px 300px 0px 0px;
-
-} */
 
 #img_01 {
     height: 538px;
