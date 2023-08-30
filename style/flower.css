@@ -52,6 +52,38 @@ body {
     margin-top: 0;
 }
 
+/*---Feature flower section---*/
+.featured-flowers-info {
+    text-align: center;
+    height: 500px;
+}
+
+.featured-flowers-info .featured-flowers-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.featured-flowers-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.featured-flowers-image {
+    display: inline;
+
+}
+
+.featured-flowers-image img {
+    padding: 20px 50px;
+    max-width: 300px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
 /*---sale section---*/
 .sale-section {
     display: flex;
