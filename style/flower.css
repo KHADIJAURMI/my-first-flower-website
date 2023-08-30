@@ -1,0 +1,53 @@
+/*Shared style*/
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.pink-primary-button {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    padding: 15px 35px;
+    text-align: center;
+    margin: 0px 50px;
+
+}
+
+/*header section*/
+.greeting-title {
+    background-color: #E554731A;
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.greeting-title h2 {
+    margin-bottom: -20px;
+}
+.main-flower{
+   
+}
+.header-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 50px 50px;
+
+}
+
+.main-flower .flower-profile {
+    max-width: 500px;
+}
+
+.flower-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 50px 50px;
+    margin-top: 0;
+}
